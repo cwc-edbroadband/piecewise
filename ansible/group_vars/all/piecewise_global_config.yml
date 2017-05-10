@@ -7,7 +7,7 @@
 # locally, in Vagrant. But not in production!
 #
 # Supported values: production, development
-env: production
+env: development
 
 # The project name should be the name of your forked repository.
 # This var is referenced by a few other vars, eg. git_repo, hostname, site_fqdn.
