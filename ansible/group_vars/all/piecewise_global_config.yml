@@ -40,7 +40,7 @@ database_user_group: postgres
 #
 # For production installs we usually use the server's fqdn once we have it configured
 # in DNS.  
-site_fqdn: "ed-broadband.clearwatercounty.org"
+site_fqdn: "50.120.74.81"
 
 # The variables below will be used to generate SSL certificates. When deploying to 
 # development hosts, the country, state and city are used by open SSL to generate a 
