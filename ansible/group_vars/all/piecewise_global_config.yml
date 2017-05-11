@@ -7,7 +7,7 @@
 # locally, in Vagrant. But not in production!
 #
 # Supported values: production, development
-env: development
+env: production
 
 # The project name should be the name of your forked repository.
 # This var is referenced by a few other vars, eg. git_repo, hostname, site_fqdn.
@@ -40,7 +40,7 @@ database_user_group: postgres
 #
 # For production installs we usually use the server's fqdn once we have it configured
 # in DNS.  
-site_fqdn: "50.120.74.81"
+site_fqdn: "ed-broadband.clearwatercounty.org"
 
 # The variables below will be used to generate SSL certificates. When deploying to 
 # development hosts, the country, state and city are used by open SSL to generate a 
@@ -336,8 +336,8 @@ thank_you_message: >
 # 'next_action_' variables define the action items present to the user after they run the test.
 next_action_message: "What do you want to do next?"
 next_action_show_map_text: "View all results to-date on a map of Clearwater County"
-next_action_learn_about_text: "Learn more about this test and how to improve your speed"
-next_action_learn_about_link: "http://www.clearwatercounty.org/"
+next_action_learn_about_text: "Report an issue or provide feedback about this site."
+next_action_learn_about_link: "mailto:speedtest@clearwatercounty.org"
 next_action_social_share_text: "Share this test with your friends, colleagues, and neighbors"
 
 # 'social_share_' variables define the links to be used for social sharing actions.
@@ -351,7 +351,7 @@ social_share_facebook: "http://www.facebook.com/sharer/sharer.php?u=https://ed-b
 social_share_stumbleupon: "http://www.stumbleupon.com/submit?url=https://ed-broadband.clearwatercounty.org/&title=I%20tested%20my%20Internet%20speeds%20with%20the%20Clearwater%20County%20Broadband%20Speed%20Test"
 social_share_reddit: "http://reddit.com/submit?url=https://ed-broadband.clearwatercounty.org/&title=I%20tested%20my%20Internet%20speeds%20with%20the%20Clearwater%20County%20Broadband%20Speed%20Test"
 social_share_linkedin: "http://www.linkedin.com/shareArticle?url=https://ed-broadband.clearwatercounty.org/&title=I%20tested%20my%20Internet%20speeds%20with%20the%20Clearwater%20County%20Broadband%20Speed%20Test&summary=I%20tested%20my%20Internet%20speeds%20with%20the%20Clearwater%20County%20Broadband%20Speed%20Test&source=https://ed-broadband.clearwatercounty.org"
-social_share_email: "mailto:speedtest@clearwatercounty.org?subject=Take%20the%20Clearwater%20County%20Broadband%20Speed Test&body=I%20just%20took%20the%20Clearwater%20County%20Broadband%20Speed%20Test,%20and%20you%20should%20too!%20Take%20the%20test%20and%20contribute%20to%20a%20map%20of%20broadband%20speeds%20across%20the%20county. https://ed-broadband.clearwatercounty.org/"
+social_share_email: "?subject=Take%20the%20Clearwater%20County%20Broadband%20Speed Test&body=I%20just%20took%20the%20Clearwater%20County%20Broadband%20Speed%20Test,%20and%20you%20should%20too!%20Take%20the%20test%20and%20contribute%20to%20a%20map%20of%20broadband%20speeds%20across%20the%20county. https://ed-broadband.clearwatercounty.org/"
 
 # 'icon_' and 'mapview_icon_' variables define the text accompanying the icons in the user interface
 #
@@ -360,14 +360,14 @@ icon_test_label: "Take the Speed Test"
 icon_test_alt_text: "Take the Speed Test"
 icon_browse_label: "Browse the Broadband Map"
 icon_browse_alt_text: "Browse the Broadband Map"
-icon_learn_label: "Learn More"
-icon_learn_alt_text: "Learn more about this test."
-icon_learn_link: "http://www.clearwatercounty.org/"
+icon_learn_label: "Provide Feedback"
+icon_learn_alt_text: "Report an issue or provide feedback about this site."
+icon_learn_link: "mailto:speedtest@clearwatercounty.org"
 
 # 'mapview_icon_' variables set the text values and '?' link on the mapview display
-mapview_icon_test_alt_text: "Take the Speed Test"
-mapview_icon_learn_alt_text: "Learn more about this test."
-mapview_icon_learn_link: "http://www.clearwatercounty.org/"
+mapview_icon_test_alt_text: "Provide Feedback"
+mapview_icon_learn_alt_text: "Report an issue or provide feedback about this site."
+mapview_icon_learn_link: "mailto:speedtest@clearwatercounty.org"
 
 # The two varables below control where Leaflet map controls are placed in the UI. 
 # They should remain unchanged for now. More work on positioning for Leaflet elements will follow.
