@@ -613,7 +613,7 @@ $(function() {
     	$('#testSpeed, #exploreMap').toggle();
  	 });
 */
-	$('#isp_user, #connection_type, #cost_of_service, #data_acknowledgement').change(function() {
+	$('#isp_user, #connection_type, #data_acknowledgement').change(function() {
 		var formState = validateExtraDataForm();
 		$('#take-test').toggle(formState);
 	});

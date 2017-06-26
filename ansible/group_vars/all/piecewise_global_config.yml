@@ -224,12 +224,20 @@ form_fields:
         1:
           default: "------"
         2:
-          comcast: "Comcast"
+          clearwater_power_wild_blue: "Clearwater Power - Wild Blue"
         3:
-          centurylink: "CenturyLink"
+          frontier: "Frontier Communications"
         4:
-          wave: "Wave"
+          firststep: "First Step Internet"
         5:
+          hughes: "HughesNet"
+        6:
+          nez_perce: "Nez Perce Network System"
+        7:
+          suddenlink: "Suddenlink"
+        8:
+          qro_idaho: "QRO of Idaho"
+        9:
           other: "Other"
       required: yes
   2:
@@ -279,7 +287,7 @@ form_fields:
           above_100: "$100 +"
         7:
           dont_know: "Don't know"
-      required: yes
+      required: no
   5:
     advertised_download:
       field_type: text
